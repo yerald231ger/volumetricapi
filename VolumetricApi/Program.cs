@@ -39,5 +39,5 @@ app.MapGet("/jsonsByDate", async (string startDate, string endDate, string repor
             return Results.BadRequest();
     }
 });
-
+git 
 app.Run();
