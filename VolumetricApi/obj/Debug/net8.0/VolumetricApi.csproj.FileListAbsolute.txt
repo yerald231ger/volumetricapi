@@ -31,3 +31,4 @@
 /Users/yerald231ger/Documents/Proyectos/OxxoGas/CsProject/VolumetricApi/VolumetricApi/obj/Debug/net8.0/VolumetricApi.pdb
 /Users/yerald231ger/Documents/Proyectos/OxxoGas/CsProject/VolumetricApi/VolumetricApi/obj/Debug/net8.0/VolumetricApi.genruntimeconfig.cache
 /Users/yerald231ger/Documents/Proyectos/OxxoGas/CsProject/VolumetricApi/VolumetricApi/obj/Debug/net8.0/ref/VolumetricApi.dll
+/Users/yerald231ger/Documents/Proyectos/OxxoGas/CsProject/VolumetricApi/VolumetricApi/obj/Debug/net8.0/VolumetricApi.sourcelink.json
