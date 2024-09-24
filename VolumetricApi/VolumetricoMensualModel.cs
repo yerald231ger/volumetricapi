@@ -37,7 +37,7 @@ public class VolumetricoMensualModel
             JsonData = "{ \"key\": \"value\" }",
             Status = "Active",
             EndGenerationDate = DateTime.Now,
-            ReportType = "Monthly"
+            ReportType = "Mensual"
         };
 
         return volumetricoMensual;

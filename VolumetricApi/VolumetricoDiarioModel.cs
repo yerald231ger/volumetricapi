@@ -37,7 +37,7 @@ public class VolumetricoDiarioModel
             JsonName = "D_819077b7-8747-45f4-9129-d67d83324890_SGM950714DC2_XAX010101000_2024-05-31_EDS-0415_EXO_JSON",
             JsonData = "{ \"report\": \"dummy data\" }",
             Status = "Pending",
-            ReportType = "Daily",
+            ReportType = "Diario",
             volumetricoEstatusId = "Terminado",
             exportFileJson = "D_819077b7-8747-45f4-9129-d67d83324890_SGM950714DC2_XAX010101000_2024-05-31_EDS-0415_EXO_JSON"
         };
