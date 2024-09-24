@@ -54,7 +54,7 @@ app.MapGet("/jsonDataByName", async (string jsonName, HttpClient client) =>
         if (!result.IsSuccessStatusCode) return Results.StatusCode(500);
         
         var stream = await result.Content.ReadAsStreamAsync();
-        return Results.File(stream, "application/octet-stream", "FileJson");
+        return Results.File(stream, "application/octet-stream", jsonName);
     }
     catch (Exception ex)
     {
