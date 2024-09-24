@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yerald231ger/Documents/Proyectos/OxxoGas/CsProject/VolumetricApi/VolumetricApi/VolumetricApi.csproj",
+      "projectUniqueName": "/Users/yerald231ger/Documents/Proyectos/OxxoGas/CsProject/volumetricapi/VolumetricApi/VolumetricApi.csproj",
       "projectName": "VolumetricApi",
-      "projectPath": "/Users/yerald231ger/Documents/Proyectos/OxxoGas/CsProject/VolumetricApi/VolumetricApi/VolumetricApi.csproj",
+      "projectPath": "/Users/yerald231ger/Documents/Proyectos/OxxoGas/CsProject/volumetricapi/VolumetricApi/VolumetricApi.csproj",
       "packagesPath": "/Users/yerald231ger/.nuget/packages/",
-      "outputPath": "/Users/yerald231ger/Documents/Proyectos/OxxoGas/CsProject/VolumetricApi/VolumetricApi/obj/",
+      "outputPath": "/Users/yerald231ger/Documents/Proyectos/OxxoGas/CsProject/volumetricapi/VolumetricApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yerald231ger/.nuget/NuGet/NuGet.Config"

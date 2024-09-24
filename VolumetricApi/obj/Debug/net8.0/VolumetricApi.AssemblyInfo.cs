@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VolumetricApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2aee3bea69e99a42a455304a94dd0230548af4ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53c09dd13bb7a442ed750f451555dd2fa41a8ca2")]
 [assembly: System.Reflection.AssemblyProductAttribute("VolumetricApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VolumetricApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
