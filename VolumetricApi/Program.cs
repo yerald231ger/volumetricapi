@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddHttpClient();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors();
 
@@ -21,7 +22,7 @@ app.UseHttpsRedirection();
 
 app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
-app.MapGet("/jsonsByDate", async (string startDate, string endDate, string reportType, int stationId) =>
+app.MapGet("/jsonsByDate", (string startDate, string endDate, string reportType, int stationId) =>
 {
     switch (reportType)
     {
@@ -39,7 +40,6 @@ app.MapGet("/jsonsByDate", async (string startDate, string endDate, string repor
             return Results.BadRequest();
     }
 });
-
 
 app.MapGet("/jsonDataByName", async (string jsonName, HttpClient client) =>
 { 
@@ -62,6 +62,5 @@ app.MapGet("/jsonDataByName", async (string jsonName, HttpClient client) =>
     }
 
 }).WithName("GetJsonData");
-
 
 app.Run();
