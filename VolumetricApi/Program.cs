@@ -39,4 +39,29 @@ app.MapGet("/jsonsByDate", async (string startDate, string endDate, string repor
             return Results.BadRequest();
     }
 });
+
+
+app.MapGet("/jsonDataByName", async (string jsonName, HttpClient client) =>
+{ 
+    if(string.IsNullOrEmpty(jsonName))
+        return Results.BadRequest();
+    
+    try
+    {
+        client.BaseAddress = new Uri("https://splitterdevstoreacc.blob.core.windows.net");
+        var result = await client.GetAsync($"/json-download/{jsonName}");
+        
+        if (!result.IsSuccessStatusCode) return Results.StatusCode(500);
+        
+        var stream = await result.Content.ReadAsStreamAsync();
+        return Results.File(stream, "application/octet-stream", "FileJson");
+    }
+    catch (Exception ex)
+    {
+        return Results.NotFound(ex.Message);
+    }
+
+}).WithName("GetJsonData");
+
+
 app.Run();
