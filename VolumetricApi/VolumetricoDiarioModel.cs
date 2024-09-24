@@ -16,6 +16,7 @@ public class VolumetricoDiarioModel
     public string JsonData { get; set; }
     public string Status { get; set; }
     public string ReportType { get; set; }
+    public string startGenerationDate { get; set; }
 
     public static VolumetricoDiarioModel Create()
     {
@@ -25,6 +26,7 @@ public class VolumetricoDiarioModel
             FechaRegistro = "2024-09-23",
             HoraRegistro = "08:45",
             FechaProceso = DateTime.Now,
+            startGenerationDate = "2024-09-23",
             Periodo = "Q3",
             VolumetricoEstatusId = 1,
             BitacoraId = "B98765",
